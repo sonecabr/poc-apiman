@@ -1,9 +1,6 @@
-<!DOCTYPE web-app PUBLIC
-        "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
-        "http://java.sun.com/dtd/web-app_2_3.dtd" >
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
 
-<web-app  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5" xmlns="http://java.sun.com/xml/ns/javaee"
-          xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
     <display-name>poc-apiman-publicapi</display-name>
 
     <context-param>
@@ -11,9 +8,14 @@
         <param-value>true</param-value>
     </context-param>
 
-    <context-param>
+    <!--<context-param>
         <param-name>resteasy.servlet.mapping.prefix</param-name>
         <param-value>/</param-value>
+    </context-param>-->
+
+    <context-param>
+        <param-name>resteasy.role.based.security</param-name>
+        <param-value>true</param-value>
     </context-param>
 
     <servlet>
@@ -33,4 +35,24 @@
     </servlet-mapping>
 
     <distributable />
+
+    <login-config>
+        <auth-method>KEYCLOAK</auth-method>
+        <realm-name>this is ignored currently</realm-name>
+    </login-config>
+
+    <!--<security-constraint>
+        <web-resource-collection>
+            <web-resource-name>Partners</web-resource-name>
+            <url-pattern>/partner/*</url-pattern>
+        </web-resource-collection>
+        <auth-constraint>
+            <role-name>partner</role-name>
+        </auth-constraint>
+        <user-data-constraint>
+            <transport-guarantee>CONFIDENTIAL</transport-guarantee>
+        </user-data-constraint>
+    </security-constraint>-->
+
+
 </web-app>

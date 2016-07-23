@@ -1,0 +1,3 @@
+<jboss-web>
+    <context-root>poc</context-root>
+</jboss-web>

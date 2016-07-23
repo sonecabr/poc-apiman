@@ -1,0 +1,10 @@
+{
+  "realm": "partner",
+  "realm-public-key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkM0VHVj7vBy6HL8aG1jMpzkETmprwXDWkroSk/VmPSSJy8OtsJf3q0PxJOn4XQjItp5Ugt3dGtmg97OrJxkkpFK6Pqa/hKdKNuKmBaXqNZl11YF4+IzSTSoSHA4gqFul/jf1Jp1cDfZqiHnvpWLkwQxIGE3o3FykQDw7EkDSHsNiEZg/YgWe6l6Pz4M0vG8X+4ZKWgOFpTXEXaT8AaYhTiEv8g1nY6zx+R1ZO+Q5udArsX+gt1UVhl42aQZK3JsGofvCON0DEoIHKSybApgCjXnJB6D8Y8g5bCH/Y1MWD87Gs0HB9jhory7TQbAXE3dUB4wl6LD3STc7OOFEtVu3aQIDAQAB",
+  "auth-server-url": "http://localhost:8080/auth",
+  "ssl-required": "external",
+  "resource": "moobaclient",
+  "credentials": {
+    "secret": "2c65398f-c3c3-47e2-8de6-c02a670f8712"
+  }
+}
