@@ -1,1 +1,1 @@
-### Simple Example with ApiMan + Keycloak ###
+### Simple Example with Keycloak (server-adapter) + Resteasy ###
