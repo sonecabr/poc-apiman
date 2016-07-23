@@ -41,7 +41,7 @@
         <realm-name>this is ignored currently</realm-name>
     </login-config>
 
-    <!--<security-constraint>
+    <!--Only active if you need keycloak login flow <security-constraint>
         <web-resource-collection>
             <web-resource-name>Partners</web-resource-name>
             <url-pattern>/partner/*</url-pattern>
