@@ -41,6 +41,10 @@ public class PartnerTest {
     @Inject
     private Principal principal;
 
+    /**
+     * Managed by keycloak
+     * @return Response (json)
+     */
     @GET
     @RolesAllowed({"partner"})
     @Path("/protected")
@@ -53,6 +57,10 @@ public class PartnerTest {
         ).build();
     }
 
+    /**
+     * Unamaged api
+     * @return Response (json)
+     */
     @GET
     @Path("/public")
     @PermitAll
