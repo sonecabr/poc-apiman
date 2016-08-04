@@ -1,0 +1,10 @@
+{
+  "realm": "partner-realm",
+  "realm-public-key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqAXxfWuiP69yhDlHMFtybFB0ocm95LpKEyS7MDi/5CjqQ/P6ykUsVYKyHUgH08WvIuIqX/4O39k8VEcVUBCEkcTMlrnOAzGDXcfHkpSSgjy855SR5mzZfdtmj6XTFPXAycutWPjmF/FXOJ5lPEKhsgSEa1W8vE3L0/9ZBqocUzzjbLyRbacZGtM4ISYG3GOaGlJFlzaLCUbnxNzqXKUhWCXn8Bs5TaTPVoI1bctJauL+JcRfbCrByp7zc8sgAg6siaR994xpKSyrrw8KFw24wuruAeuugaTioOJHnDWWjIQu6seAWeOIDb5JdIr7ECsT37wGGSA/nOUa8I+R5Yln8QIDAQAB",
+  "auth-server-url": "http://192.168.5.237:8080/auth",
+  "ssl-required": "external",
+  "resource": "partner-client",
+  "credentials": {
+    "secret": "36afa019-2fc5-4c61-be37-41017b20a85e"
+  }
+}

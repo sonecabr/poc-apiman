@@ -61,6 +61,28 @@
             <version>2.0.0.Final</version>
             <type>pom</type>
         </dependency>
+        <!--<dependency>-->
+            <!--<groupId>org.keycloak</groupId>-->
+            <!--<artifactId>keycloak-core</artifactId>-->
+            <!--<scope>provided</scope>-->
+        <!--</dependency>-->
+        <!--<dependency>-->
+            <!--<groupId>org.keycloak</groupId>-->
+            <!--<artifactId>keycloak-authz-client</artifactId>-->
+            <!--<scope>provided</scope>-->
+        <!--</dependency>-->
+        <!--<dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>servlet-api</artifactId>
+            <version>2.5</version>
+            <scope>provided</scope>
+        </dependency>-->
+        <dependency>
+            <groupId>org.keycloak</groupId>
+            <artifactId>keycloak-admin-client</artifactId>
+            <version>2.0.0.Final</version>
+            <scope>compile</scope>
+        </dependency>
     </dependencies>
 
     <build>
@@ -86,10 +108,10 @@
                 <artifactId>wildfly-maven-plugin</artifactId>
                 <version>1.0.2.Final</version>
                 <configuration>
-                    <hostname>localhost</hostname>
-                    <port>9990</port>
+                    <hostname>192.168.5.237</hostname>
+                    <port>10190</port>
                     <username>admin</username>
-                    <password>admin123!</password>
+                    <password>admin</password>
                 </configuration>
                 <executions>
                     <execution>

@@ -35,11 +35,11 @@
     </servlet-mapping>
 
     <distributable />
-
+<!--
     <login-config>
         <auth-method>KEYCLOAK</auth-method>
         <realm-name>this is ignored currently</realm-name>
-    </login-config>
+    </login-config>-->
 
     <!--Only active if you need keycloak login flow <security-constraint>
         <web-resource-collection>
